@@ -1,0 +1,128 @@
+
+<!-- partial:index.partial.html -->
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700" rel="stylesheet">
+
+
+<div id="load" class="loader active">
+     <!--<span class="load">loading</span>-->
+ </div>
+<section id="hero" class="hero-section">
+    <div id="animated-bg"></div>
+    <div id="left-indicator"></div>
+    <div id="right-indicator"></div>
+    <div class="container hero-section__container">
+        <div id="left-block" class="left-block active">
+           <!-- <div class="text-wrap text-wrap-left">
+                <h2 class="lbl-1">Customer alignment for today
+                    <span class="yellow">.</span>
+                </h2>
+            </div>-->
+            <div id="circles" style="display:none;"></div>
+            <!--<div class="circles-description">
+                <p class="lbl-2 desc-left">Your Brand’s Why.</p>
+                <p class="lbl-2 desc-right">Your Customer’s Why.</p>
+            </div>
+            <div class="button-wrap button-wrap-left">
+                <div class="button-gradient yellow">
+                    <a href="#" class="hero-button">Learn More</a>
+                </div>
+            </div>-->
+			<div style="color:#fff;">dfdfgdfg</div>
+        </div>
+        <div id="right-block" class="right-block">
+            <div class="logo-wrap logo-wrap-right">
+               <!-- <svg class="labs-circles" id="labs-circles" width="13px" height="11px" viewBox="0 0 13 11" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <style>
+                        #left-circle {
+                            animation: left-circle 1.5s cubic-bezier(0.57, 0, 0.3, 1) infinite;
+                            transform-origin: 20% 50%;
+                        }
+
+                        #right-circle {
+                            animation: right-circle 1.5s cubic-bezier(0.57, 0, 0.3, 1) 0.05s infinite;
+                            transform-origin: 33% 56%;
+                        }
+
+                        @keyframes left-circle {
+                            0% {
+                                transform: rotate(0)
+                            }
+                            50% {
+                                transform: rotate(-180deg)
+                            }
+                            100% {
+                                transform: rotate(0)
+                            }
+                        }
+
+                        @keyframes right-circle {
+                            0% {
+                                transform: rotate(0)
+                            }
+                            50% {
+                                transform: rotate(-155deg)
+                            }
+                            100% {
+                                transform: rotate(0)
+                            }
+                        }
+                    </style>
+                    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <g id="Index_Loop" transform="translate(-1051.000000, -164.000000)">
+                            <g id="Top" transform="translate(-1.000000, -7.000000)">
+                                <g id="Page-1" transform="translate(1006.000000, 171.000000)">
+                                    <g id="Group-2" transform="translate(46.000000, 0.000000)">
+                                        <circle id="Oval" fill="#F9B225" cx="3.5" cy="7.5" r="3.5"></circle>
+                                        <circle id="left-circle" fill="#F35C55" cx="8" cy="2" r="2"></circle>
+                                        <circle id="right-circle" fill="#ED0188" cx="11" cy="7" r="2"></circle>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </svg>-->
+                <!--<object class="labs-logo" 
+				data="https://s3-us-west-1.amazonaws.com/zajno-storage0/rocket-source/labs.svg" 
+				type="image/svg+xml"></object>-->
+            </div>
+            <!--<div class="text-wrap text-wrap-right">
+                <h2 class="lbl-1">Innovation for Tomorrow
+                    <span class="red">.</span>
+                </h2>
+            </div>-->
+            <div id="infinity" class="infinity">
+                <!--<div id="trident" class="trident-mask"></div>-->
+                <!--<svg id="mask" width="431" height="195" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <clipPath id="myClip">
+                            <rect style="transform: rotate(-45deg); transform-origin: center;" x="207.5" y="83" width="19" height="27" />
+                        </clipPath>
+                        <clipPath id="y-shape" clipPathUnits="objectBoundingBox">
+                            <polygon points=".482558 .3836, .537282 .51000, .502641 .567359, .45700, .46350" />
+                        </clipPath>
+                        <linearGradient id="SVG" gradientUnits="userSpaceOnUse" x1="2.2678" y1="103.6775" x2="330.9431" y2="94.3244" gradientTransform="matrix(1 0 0 -1 0 192.6)">
+                            <stop offset="0" style="stop-color:#F9B224" />
+                            <stop offset="0.1468" style="stop-color:#F9B224" />
+                            <stop offset="0.6142" style="stop-color:#F35A56" />
+                            <stop offset="1" style="stop-color:#ED0288" />
+                        </linearGradient>
+                    </defs>
+                    <rect id="mask-rect" fill="url(#SVG)" x="0" y="0" width="431" height="195" clip-path="url(#myClip)" />
+                </svg>-->
+               <!--<div id="loop"></div>-->
+                <!--<object class="infinity-sign" 
+				data="https://s3-us-west-1.amazonaws.com/zajno-storage0/rocket-source/infinity.svg"
+				type="image/svg+xml"></object>-->
+            </div>
+            <!--<div class="button-wrap button-wrap-right">
+                <div class="button-gradient red">
+                    <a href="#" class="hero-button">Learn More</a>
+                </div>
+            </div>-->
+        </div>
+</section>
+<!-- partial -->
+  <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/1229210/lottie.js'></script>
+  <script  src="./script.js"></script>
